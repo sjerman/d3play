@@ -1,0 +1,146 @@
+{
+    "node_meta": [
+        {
+            "id": "1",
+            "type": "client",
+            "props": [
+                {
+                    "k": "macAddress",
+                    "v": "10:0b:a9:5d:ac:74"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "type": "ap",
+            "props": [
+                {
+                    "k": "name",
+                    "v": "ap1"
+                },
+                {
+                    "k": "ipAddress",
+                    "v": "1.2.3.4"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "type": "ap",
+            "props": [
+                {
+                    "k": "name",
+                    "v": "ap2"
+                },
+                {
+                    "k": "ipAddress",
+                    "v": "1.2.3.5"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "type": "wlc",
+            "props": [
+                {
+                    "k": "name",
+                    "v": "wlcOne"
+                },
+                {
+                    "k": "ipAddress",
+                    "v": "1.2.3.4"
+                }
+            ]
+        }
+    ],
+    "link_meta": [
+        {
+            "id": "5",
+            "props": [],
+            "from": "1",
+            "to": "2"
+        },
+        {
+            "id": "6",
+            "props": [],
+            "from": "2",
+            "to": "4"
+        },
+        {
+            "id": "7",
+            "props": [],
+            "from": "1",
+            "to": "3"
+        },
+        {
+            "id": "8",
+            "props": [],
+            "from": "3",
+            "to": "4"
+        }
+    ],
+    "topos": [
+        {
+            "s": 1469649600,
+            "f": 1469649660,
+            "nodes": [
+                {
+                    "id": "1",
+                    "status": "ok",
+                    "props": []
+                },
+                {
+                    "id": "2",
+                    "status": "ok",
+                    "props": []
+                },
+                {
+                    "id": "4",
+                    "status": "ok",
+                    "props": []
+                }
+            ],
+            "links": [
+                {
+                    "id": "5",
+                    "props": []
+                },
+                {
+                    "id": "6",
+                    "props": []
+                }
+            ]
+        },
+        {
+            "s": 1469649780,
+            "f": 1469649900,
+            "nodes": [
+                {
+                    "id": "1",
+                    "status": "ok",
+                    "props": []
+                },
+                {
+                    "id": "3",
+                    "status": "warning",
+                    "props": []
+                },
+                {
+                    "id": "4",
+                    "status": "ok",
+                    "props": []
+                }
+            ],
+            "links": [
+                {
+                    "id": "7",
+                    "props": []
+                },
+                {
+                    "id": "8",
+                    "props": []
+                }
+            ]
+        }
+    ]
+}
