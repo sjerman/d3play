@@ -39,6 +39,62 @@
             ]
         },
         {
+            "id": "3a",
+            "type": "ap",
+            "props": [
+                {
+                    "k": "name",
+                    "v": "ap2a"
+                },
+                {
+                    "k": "ipAddress",
+                    "v": "1.2.3.5"
+                }
+            ]
+        },
+        {
+            "id": "3b",
+            "type": "ap",
+            "props": [
+                {
+                    "k": "name",
+                    "v": "ap2b"
+                },
+                {
+                    "k": "ipAddress",
+                    "v": "1.2.3.5"
+                }
+            ]
+        },
+        {
+            "id": "3c",
+            "type": "ap",
+            "props": [
+                {
+                    "k": "name",
+                    "v": "ap2c"
+                },
+                {
+                    "k": "ipAddress",
+                    "v": "1.2.3.5"
+                }
+            ]
+        },
+        {
+            "id": "3d",
+            "type": "ap",
+            "props": [
+                {
+                    "k": "name",
+                    "v": "ap2d"
+                },
+                {
+                    "k": "ipAddress",
+                    "v": "1.2.3.5"
+                }
+            ]
+        },
+        {
             "id": "4",
             "type": "wlc",
             "props": [
@@ -77,6 +133,30 @@
             "props": [],
             "from": "3",
             "to": "4"
+        },
+        {
+            "id": "9",
+            "props": [],
+            "from": "1",
+            "to": "3a"
+        },
+        {
+            "id": "10",
+            "props": [],
+            "from": "1",
+            "to": "3b"
+        },
+        {
+            "id": "11",
+            "props": [],
+            "from": "1",
+            "to": "3c"
+        },
+        {
+            "id": "12",
+            "props": [],
+            "from": "3c",
+            "to": "4"
         }
     ],
     "history": [
@@ -91,12 +171,12 @@
                 },
                 {
                     "id": "2",
-                    "status": "ok",
+                    "status": "error",
                     "props": []
                 },
                 {
                     "id": "4",
-                    "status": "ok",
+                    "status": "warning",
                     "props": []
                 }
             ],
@@ -122,7 +202,7 @@
                 },
                 {
                     "id": "3",
-                    "status": "warning",
+                    "status": "ok",
                     "props": []
                 },
                 {

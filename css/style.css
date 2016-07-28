@@ -1,4 +1,15 @@
-.node {
+svg {
+	border: 1px solid gray;
+}
+#log {
+	position:absolute;
+	right:10px;
+	top:10px;
+	width:400px;
+	height:600px;
+ 	border:1px solid gray;
+ }
+ .node {
     stroke-width: 1.5px;
 }
 
@@ -6,4 +17,8 @@
     fill: none;
     stroke: #ccc;
     stroke-width: 1px;
+}
+
+.link.green {
+	stroke: #2c2;
 }

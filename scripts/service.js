@@ -156,11 +156,6 @@ $(function () {
             return v;
         }));
 
-
-
-
-
-
         var jsonPretty = JSON.stringify(summary, null, '\t');
         $("pre").text(jsonPretty);
     });
